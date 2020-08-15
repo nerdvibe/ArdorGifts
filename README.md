@@ -1,4 +1,4 @@
-# 🎁 Ardor Gifts <img width="80" alt="powered by ardor" src="https://github.com/tomyum-code/ardor-gifts-media-kit/blob/master/powered-by-ardor-removebg-preview.png?raw=true">
+# 🎁 Ardor Gifts <img width="80" alt="powered by ardor" href="https://github.com/tomyum-code/ardor-gifts-media-kit/blob/master/powered-by-ardor-removebg-preview.png?raw=true">
 
 <p align="center">
     <img alt="Blazing Fast" src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square">
