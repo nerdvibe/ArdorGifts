@@ -23,7 +23,7 @@ By being a newcommer to the project and wanting to contribute to the project, I 
 For sure this is a first project of many...
 
 ## How to use 📝
-Ardor Gifts works on browser and natively offline on Mac, Linux or Windows. [Here you can try it online](https://ardor.gifts) or [here you can find the downloadable version of Ardor Gifts](https://github.com/tomyum-code/Ardor-Gifts/releases).
+Ardor Gifts works on browser and natively offline on Mac, Linux or Windows. [Here you can try it online](https://ardor.gifts) or [here you can find the downloadable version of Ardor Gifts](https://github.com/tomyum-code/ArdorGifts/releases).
 
 ## What is a paper wallet? ❓
 
@@ -47,10 +47,10 @@ Another use case of a paper wallet is to gift it to friends for example for Chri
 The code of ArdorGifts is open source. You can improve it and submit a PR to the repository. If you need assistance, feel free to contact Tom Yum on the Ardor slack chat.
 
 
-The safest way to generate a wallet is to [download the application here](https://github.com/tomyum-code/Ardor-Gifts/releases), transfer it into an usb drive, start an offline linux distribution, and open the index.html.
+The safest way to generate a wallet is to [download the application here](https://github.com/tomyum-code/ArdorGifts/releases), transfer it into an usb drive, start an offline linux distribution, and open the index.html.
 
 
-If you don't want to bother to use an offline linux distribution, you can just download [ArdorGifts.zip from here](https://github.com/tomyum-code/Ardor-Gifts/releases), unzip it and execute the index.html. There is no need to be connected to internet while running the ArdorGifts app.
+If you don't want to bother to use an offline linux distribution, you can just download [ArdorGifts.zip from here](https://github.com/tomyum-code/ArdorGifts/releases), unzip it and execute the index.html. There is no need to be connected to internet while running the ArdorGifts app.
 
 ## Do you want to propose a new design for the wallets? ✏️
 
