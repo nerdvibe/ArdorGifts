@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.footer-link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.footer-text {
+  padding-bottom: 20px;
+}
+
+.slow-spin {
+  -webkit-animation: fa-spin 6s infinite linear;
+  animation: fa-spin 6s infinite linear;
+}
+
+.button {
+  margin: 5px;
+}
+
+.top35 {
+  margin-top: 35px;
+}
+
+.underlined {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.only-print {
+  display: none;
+}
+@media print {
+  .hide-print {
+    display: none;
+  }
+  .small-screen {
+    display: none!important;
+  }
+  .only-big-screen {
+    display: initial!important;
+  }
+
+  .logo-print {
+    position: absolute;
+    z-index: 9;
+    transform: scale(5);
+    left: 90px;
+    top: 25px;
+  }
+
+  .only-print {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .small-screen {
+    display: none;
+  }
+}
+@media (max-width: 1024px) and (min-width: 0px) {
+  .only-big-screen {
+    display: none;
+  }
+  .small-screen {
+    display: block;
+  }
+}
+
+
+.left-title{
+  width: 265px;
+  height: 108px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.custom-title{
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.left-description{
+  width: 242px;
+  height: 66px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.action-button{
+  width: 292px;
+  height: 46px;
+  border-radius: 14px;
+  background-color: #8dd070;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+  border: none;
+}
+
+.background-wave{
+  left: -15vw;
+  position: relative;
+  top: -2vh;
+  max-width: 150%;
+  width: 120vw;
+  height: 110px;
+}
+
+html{
+  background:#3372A3;
+}
+
+.fade-in{
+  animation: fadein 1.5s;
+  -moz-animation: fadein  1.5s; /* Firefox */
+  -webkit-animation: fadein  1.5s; /* Safari and Chrome */
+  -o-animation: fadein  1.5s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.big-button, .big-button-blue, .big-button-orange{
+  min-width: 250px;
+  /* background-color: rgba(0,0,0,0.1); */
+  border-radius: 20px;
+  color: black;
+  padding:  10px ;
+  transition: 0.2s;
+}
+
+.big-button:hover{
+  background-color:#00d1b2;
+  border-radius: 20px;
+  color: white;
+  transition: 0.2s;
+  padding:  10px ;
+}
+
+.big-button-blue:hover{
+  background-color:#009FD1;
+  border-radius: 20px;
+  color: white;
+  transition: 0.2s;
+  padding:  10px ;
+}
+
+.big-button-orange:hover{
+  background-color:#f5b00a;
+  border-radius: 20px;
+  color: white;
+  transition: 0.2s;
+  padding:  10px ;
+}
+
+.button-title-left{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.button-description-left{
+  margin: auto;
+  width: 90%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.secondary-button{
+  background:#009FD1;
+  color: white;
+}
+
+.secondary-button:hover{
+  background:#0085ae;
+  color: white;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+.full-frame{
+  margin-top: -25px;
+  width: 100%;
+}
+
+.blue-container{
+  border-radius: 25px;
+  color: #000000;
+}
+
+.custom-title-small, .custom-title-small-light{
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.custom-title-small-light{
+  font-weight: 300;
+}
+
+.text-container{
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+@media print {
+  .text-container{
+    margin-top: -50px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+}

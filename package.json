@@ -1,0 +1,74 @@
+{
+  "name": "ardorgifts",
+  "version": "0.1.0",
+  "private": true,
+  "main": "public/electron.js",
+  "author": "Tom Yum",
+  "description": "Do you want to gift Ardor to somebody? Or maybe you just want to generate an offline wallet for Ardor? Ardor Gifts will do it for you!",
+  "homepage": "./",
+  "dependencies": {
+    "ardorjs": "^0.1.8",
+    "bitcore-mnemonic": "8.3.4",
+    "crypto": "1.0.1",
+    "electron-is-dev": "1.1.0",
+    "gh-pages": "^2.0.1",
+    "js-nacl": "1.3.2",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "0.9.3",
+    "react": "16.8.6",
+    "react-animate-on-change": "2.2.0",
+    "react-detect-offline": "2.4.0",
+    "react-dom": "16.8.6",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-dev": "concurrently \"BROWSER=none yarn start\" \"wait-on http://localhost:3000 && electron .\"",
+    "electron": "electron .",
+    "electron-pack": "electron-builder -mwl",
+    "electron-pack-win": "build -c.extraMetadata.main=build/electron.js --windows",
+    "electron-pack-mac": "build -c.extraMetadata.main=build/electron.js --mac",
+    "preelectron-pack": "yarn build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "electron": "^9.2.0",
+    "electron-builder": "^22.8.0",
+    "typescript": "3.5.2",
+    "wait-on": "^3.2.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "build": {
+    "appId": "gifts.ardor",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets"
+    },
+    "win": {
+      "target": "portable"
+    }
+  }
+}
