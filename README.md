@@ -1,10 +1,10 @@
 # 🎁 Ardor Gifts <a href="#"><img width="80" alt="powered by ardor" src="https://github.com/tomyum-code/ardor-gifts-media-kit/blob/master/powered-by-ardor-removebg-preview.png?raw=true"></a>
 
 <p align="center">
-    <img alt="Blazing Fast" src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square">
-    <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
-    <img alt="Chat on slack" src="https://img.shields.io/badge/chat-on%20slack-orange">
-    <img alt="Code size" src="https://img.shields.io/github/languages/code-size/tomyum-code/ArdorGifts">
+    <a href="#"><img alt="Blazing Fast" src="https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square"></a>
+    <a href="#"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
+    <a href="#"><img alt="Chat on slack" src="https://img.shields.io/badge/chat-on%20slack-orange"></a>
+    <a href="#"><img alt="Code size" src="https://img.shields.io/github/languages/code-size/tomyum-code/ArdorGifts"></a>
 </p>
 
 ###  A paper wallet creator for Ardor. [Try it here](https://ardor.gifts)
